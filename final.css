@@ -1,0 +1,52 @@
+ main {
+     font-family: 'Balsamiq Sans', cursive;
+ }
+ 
+ .pad-izquierda {
+     padding-left: 20px;
+ }
+ 
+ .letra-naranja {
+     color: orange;
+ }
+ 
+ .iconofb {
+     font-size: 30px;
+     color: orange;
+     margin-right: 15px;
+ }
+ 
+ .letrasNav {
+     color: orange;
+ }
+ 
+ .jumbotron {
+     background-image: url(pngtree-polygon-geometric-gradient-orange-gradient-image_16143.jpg);
+     height: 350px;
+ }
+ 
+ h1 {
+     color: white;
+ }
+ 
+ .lead {
+     color: white;
+ }
+ 
+ .iconos-descripcion {
+     font-size: 100px;
+     color: orange;
+     margin-left: 115px;
+     margin-top: 100px;
+ }
+ /*
+.moto{
+    font-size: 100px;
+    color: orange;
+    margin-left: 175px;
+    margin-top: 100px;
+}*/
+ 
+ .pie-pagina {
+     background-color: orange;
+ }
