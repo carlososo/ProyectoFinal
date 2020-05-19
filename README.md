@@ -7,3 +7,4 @@ Se me ocurrieron unas cosas de ver páginas ayer, y quiero ver si están interes
 > > Modificar el background del body con este color, letra en blanco,
 > >Cambiar la barra de blanca a negra, tal vez traslucida
 > >Meter una imagen de fondo y mejor acomodar un fondo traslucido naranja
+> >Fondo fixed para efecto de things going up
