@@ -37,6 +37,11 @@
      color: #ffffff;
  }
  
+ .centrar {
+     display: flex;
+     justify-content: center;
+ }
+ 
  .navbar-custom {
      background-color: rgb(57, 61, 66, 0.8);
  }
@@ -147,4 +152,16 @@
  
  .pie-pagina {
      background-color: orange;
+ }
+ 
+ .tamaño-imagen-carrusel {
+     max-height: 50rem;
+ }
+ 
+ .padding-imagen-carrusel {
+     padding-top: 12rem;
+ }
+ 
+ .ancho-carousel {
+     max-width: 75%;
  }
