@@ -1,0 +1,258 @@
+ html {
+     font-size: 62.5%;
+     font-family: 'Lato', sans-serif;
+ }
+ 
+ body {
+     background-color: rgb(255, 255, 255, 0.2);
+     font-size: 1.6rem;
+ }
+ 
+ h1 {
+     font-size: 3.8rem;
+     font-weight: 900
+ }
+ 
+ h2 {
+     font-size: 3.4rem;
+     font-weight: 400
+ }
+ 
+ h3 {
+     font-size: 3rem;
+     font-weight: 400
+ }
+ 
+ h4 {
+     font-size: 2.6rem;
+     font-weight: 400
+ }
+ 
+ h5 {
+     font-size: 1.8rem;
+ }
+ 
+ .fw-700 {
+     font-weight: 700;
+ }
+ 
+ .bigger {
+     font-size: 8rem;
+ }
+ 
+ @media(max-width: 768px) {
+     .bigger {
+         font-size: 5rem;
+     }
+ }
+ 
+ main {
+     color: black;
+ }
+ 
+ .centrar {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .barrita {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .marca {
+     font-size: large;
+     font-weight: 300;
+     text-transform: uppercase;
+ }
+ 
+ .navbar-custom {
+     background-color: rgba(255, 255, 255, 0.8);
+ }
+ 
+ .pad-izquierda {
+     padding-left: 2rem;
+ }
+ 
+ .cabecero-forma-letras {
+     padding-right: 10rem;
+ }
+ 
+ .cabecero-forma-letras-dos {
+     margin-top: 1.6rem;
+     padding-left: 15rem;
+ }
+ 
+ .letras-blancas {
+     color: #ffffff;
+ }
+ 
+ .letra-naranja {
+     color: rgb(114, 33, 206);
+ }
+ 
+ .no-padding {
+     padding: 0;
+     margin-top: 0;
+ }
+ 
+ .cabecero-imagen {
+     background-image: url(../img/BAr.webp);
+ }
+ 
+ .fondo {
+     position: relative;
+     background-repeat: no-repeat;
+     min-height: 80vh;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ }
+ 
+ .fondo::before {
+     content: "";
+     width: 100%;
+     height: 100%;
+     min-height: 80vh;
+     position: absolute;
+     background-color: rgba(114, 33, 206, 0.5);
+ }
+ 
+ .seccion-imagen {
+     background-image: url(../img/hielo.jpg);
+ }
+ 
+ section div.fondo::before {
+     content: "";
+     width: 100%;
+     height: 100%;
+     min-height: 80vh;
+     position: absolute;
+     background: rgba(255, 255, 255, 0.2);
+ }
+ 
+ .cabecero-letras {
+     position: relative;
+     padding-top: 20rem;
+     z-index: 1;
+ }
+ 
+ .iconofb {
+     font-size: 2.5rem;
+     color: hsl(268, 72%, 47%);
+     margin-right: 1.5rem;
+ }
+ 
+ .iconofb:last-of-type {
+     margin-right: 0;
+ }
+ 
+ .letrasNav {
+     color: #7221ce;
+ }
+ 
+ .letrasnav-selec {
+     color: black;
+     font-weight: 700;
+ }
+ 
+ .transparente {
+     opacity: 0.6;
+ }
+ 
+ .iconos-descripcion {
+     font-size: 10rem;
+     color: rgb(114, 33, 206);
+     margin-left: 115px;
+     margin-top: 8rem;
+ }
+ 
+ .adelante {
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .pie-pagina {
+     background-color: #7221ce;
+     padding-left: 90px;
+ }
+ 
+ .tamaño-imagen-carrusel {
+     max-height: 50rem;
+ }
+ 
+ .alto-carousel {
+     max-height: 60rem;
+     margin-bottom: 10rem;
+ }
+ 
+ .padding-imagen-carrusel {
+     padding-top: 12rem;
+     padding-bottom: 12rem;
+ }
+ 
+ .ancho-carousel {
+     max-width: 80%;
+ }
+ 
+ .fondo-custom {
+     background-color: rgba(255, 255, 255, 0.6);
+ }
+ 
+ .tarjeta-display-flex {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 1rem 0;
+ }
+ 
+ .btn-personalizado {
+     background-color: #393d42;
+     border-radius: 5rem;
+     color: #ffffff;
+     padding: 1rem 3rem;
+     border: 0px;
+ }
+ 
+ .btn-personalizado:hover {
+     background-color: black;
+     color: white;
+ }
+ 
+ .tamaño-tarjeta-imagen {
+     max-height: 18rem;
+ }
+ 
+ .footer-social {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ 
+ .footer-flex {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ 
+ .iconofooter {
+     font-size: 2.5rem;
+     color: rgb(253, 251, 255);
+     margin-right: 1.5rem;
+ }
+ /*-------------------------------------------------------------Productos---------------------------------------------------------------------*/
+ 
+ .productos-fondo {
+     background-image: url(../img/hielo.jpg);
+ }
+ 
+ .productos-espacio-trabajo {
+     width: 100vh;
+     height: 80vh;
+     margin-top: 10.5rem;
+     color: #393d42;
+ }
+ 
+ .barras-desplazamiento {
+     overflow: visible;
+ }
