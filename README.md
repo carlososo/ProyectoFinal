@@ -1,4 +1,12 @@
 # ProyectoFinal
-## Branch to play
 
-descubriendo que hacer en git, espero no borrar el repo xD
+
+* Modificaciones a los links 
+* Responsivo en algunos lugares
+* Modal disclaimer Mayor de edad
+* JQuery para no cargar los modales y solo hacer un modal
+
+## Nadamás
+
+
+
