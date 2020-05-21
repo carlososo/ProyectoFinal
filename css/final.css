@@ -163,8 +163,6 @@
  .iconos-descripcion {
      font-size: 10rem;
      color: rgb(114, 33, 206);
-     margin-left: 115px;
-     margin-top: 8rem;
  }
  
  .adelante {
@@ -174,7 +172,6 @@
  
  .pie-pagina {
      background-color: #7221ce;
-     padding-left: 90px;
  }
  
  .tamaño-imagen-carrusel {
