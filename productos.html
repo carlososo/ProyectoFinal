@@ -21,9 +21,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link letrasNav" href="#">Precios y Ofertas</a>
-                </li>
+
                 <li class="nav-item ">
                     <a class="nav-link letrasNav" href="productos.html">Productos <span class="sr-only">(current)</span></a>
                 </li>
@@ -53,10 +51,10 @@
         </div>
     </nav>
 
-    <main class="">
+    <main class="py-5">
 
         <!--Tarjetas-->
-        <div class="tarjetas container py-5  fondo-custom">
+        <div class=" container py-5  fondo-custom ">
             <h2 class="text-center mb-3">Cervezas</h2>
             <div class="row justify-content-around">
                 <div class="card tarjeta-display-flex" style="width: 18rem;">
@@ -84,11 +82,12 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Club Colombia</h5>
                         <p class="card-text text-center">Elaborada con finos ingredientes, incluyendo malta variedad Cristal, la cual permite obtener un sabor acentuado y muchísimo mas profundo y refrescante. </p>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-personalizado" data-toggle="modal" data-target="#exampleModalCenter">Agregar a Carrito</a>
-                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-personalizado" data-toggle="modal" data-target="#exampleModalCenter">Agregar a Carrito</a>
                     </div>
                 </div>
+
                 <div class="card tarjeta-display-flex" style="width: 18rem;">
                     <img src="img/cerveza4.jpg" class="card-img-top tamaño-tarjeta-imagen" alt="...">
                     <div class="card-body">
@@ -175,10 +174,11 @@
                             <div class="card-body">
                                 <h5 class="card-title text-center">1800</h5>
                                 <p class="card-text text-center">Elaborado con finos ingredientes, incluyendo malta variedad Cristal, la cual permite obtener un sabor acentuado y muchísimo mas profundo y refrescante.</p>
-                                <div class="text-center">
-                                    <a href="#" class="btn btn-personalizado" data-toggle="modal" data-target="#exampleModalCenter">Agregar a Carrito</a>
-                                </div>
                             </div>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-personalizado" data-toggle="modal" data-target="#exampleModalCenter">Agregar a Carrito</a>
+                            </div>
+
                         </div>
                         <div class="card tarjeta-display-flex" style="width: 18rem;">
                             <img src="img/tequila4.jpg" class="card-img-top tamaño-tarjeta-imagen" alt="...">
@@ -267,9 +267,9 @@
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Domaine Serene</h5>
                                         <p class="card-text text-center">Chardonnay madurado en barricas de roble, que son movidas periódicamente por distintas salas bajo un estricto proceso, para controlar la temperatura y regular la fermentación.</p>
-                                        <div class="text-center">
-                                            <a href="#" class="btn btn-personalizado" data-toggle="modal" data-target="#exampleModalCenter">Agregar a Carrito</a>
-                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-personalizado" data-toggle="modal" data-target="#exampleModalCenter">Agregar a Carrito</a>
                                     </div>
                                 </div>
                                 <div class="card tarjeta-display-flex" style="width: 18rem;">
@@ -364,9 +364,9 @@
                                             <div class="card-body">
                                                 <h5 class="card-title text-center">Cardhu Domain Serene</h5>
                                                 <p class="card-text text-center">Es un whisky single malt, dulce y delicado, se caracteriza por su intensidad y su dulzura. Viene en una botella muy estética que hace de este whisky una muy buena opción para regalar.</p>
-                                                <div class="text-center">
-                                                    <a href="#" class="btn btn-personalizado" data-toggle="modal" data-target="#exampleModalCenter">Agregar a Carrito</a>
-                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <a href="#" class="btn btn-personalizado" data-toggle="modal" data-target="#exampleModalCenter">Agregar a Carrito</a>
                                             </div>
                                         </div>
                                         <div class="card tarjeta-display-flex" style="width: 18rem;">
@@ -474,7 +474,7 @@
                 </div>
                 <div class="letras-blancas col-md-3">
 
-                    <form>
+                    <form action="newsletter.html" method="GET">
                         <div class="form-group flex-row ">
                             <h5 class="text-center">Suscribete a nuestro Newsletter!</h5>
                             <label for="exampleInputEmail1">Email address:</label>
@@ -486,7 +486,7 @@
                             <input class="form-control" type="tel" placeholder="1-(555)-555-5555" id="example-tel-input">
                         </div>
                         <div class="form-group form-check"></div>
-                        <button type="submit" class="btn btn-primary btn-personalizado">Suscríbete</button>
+                        <button type="submit" id="enviar" class="btn btn-primary btn-personalizado">Suscríbete</button>
                     </form>
 
                 </div>

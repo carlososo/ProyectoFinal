@@ -42,6 +42,4 @@ $(document).ready(function() {
         $('#Modal-inner-text').html("Nuevo Texto 8");
     });
 
-
-
 });
