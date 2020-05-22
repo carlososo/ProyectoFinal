@@ -237,6 +237,12 @@
      color: rgb(253, 251, 255);
      margin-right: 1.5rem;
  }
+ 
+ .cajita-arriba {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around
+ }
  /*-------------------------------------------------------------Productos---------------------------------------------------------------------*/
  
  .productos-fondo {
